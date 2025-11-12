@@ -7,7 +7,7 @@ Developed by AIoTLab – FIT DNU, Dai Nam University
 <div align="center">
 
 <p align="center">
-  <img src="./img/image\logoDaiNam.png" alt="DaiNam University Logo" width="200"/>
+  <img src="./img/logoDaiNam.png" alt="DaiNam University Logo" width="200"/>
   <img src="./img/image\LogoAIoTLab.png" alt="AIoTLab Logo" width="170"/>
 </p>
 
