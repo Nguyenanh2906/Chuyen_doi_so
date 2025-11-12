@@ -45,21 +45,19 @@
 
 ### 🧩 System Architecture
 ```
-📂 StudentSentimentAnalysis/
-├── data/
-│   ├── train.csv
-│   ├── dev.csv
-│   └── test.csv
+PhanTichPhanHoi/
+├── __pycache__/
+├── .venv/
 ├── models/
-│   ├── phobert_cnn_gru.py
-│   ├── train.py
-│   └── evaluate.py
-├── results/
-│   ├── learning_rate_analysis.csv
-│   ├── performance_report.json
-│   └── confusion_matrix.png
-├── requirements.txt
-└── README.md
+│   ├── sent_phobert_hybrid_best.pth
+│   └── topic_phobert_gru_best.pth
+├── analyze_demo.html
+├── app.py
+├── data_processing.py
+├── model_classes.py
+└── requirements.txt
+
+
 ```
 
 ### ⚙ Installation & Usage
