@@ -1,14 +1,10 @@
-🎓 STUDENT SENTIMENT ANALYSIS
 
-DaiNam University Logo | AIoTLab Logo
-Developed by AIoTLab – FIT DNU, Dai Nam University
-
-<h1 align="center">FACE RECOGNITION </h1>
+<h1 align="center">PHÂN TÍCH CẢM XÚC SINH VIÊN </h1>
 <div align="center">
 
 <p align="center">
   <img src="./img/logoDaiNam.png" alt="DaiNam University Logo" width="200"/>
-  <img src="./img/image\LogoAIoTLab.png" alt="AIoTLab Logo" width="170"/>
+  <img src="./img/LogoAIoTLab.png" alt="AIoTLab Logo" width="170"/>
 </p>
 
 [![Made by AIoTLab](https://img.shields.io/badge/Made%20by%20AIoTLab-blue?style=for-the-badge)](https://www.facebook.com/DNUAIoTLab)
