@@ -38,13 +38,12 @@
 
 - Kết hợp CNN-GRU: Giúp mô hình vừa học được đặc trưng cục bộ vừa hiểu được ngữ cảnh tổng thể, nâng cao độ chính xác phân loại.
 
-📊 Bảng 1 – Hiệu suất mô hình theo tỷ lệ học (Trên tập Dev):
 <p align="center">
   <img src="./img/Bảng 1.jpg" alt=""/>
 </p>
-Kết quả cho thấy tỷ lệ học 0.0001 mang lại hiệu suất tối ưu cho cả hai nhiệm vụ.
 
-🧩 System Architecture
+### 🧩 System Architecture
+```
 📂 StudentSentimentAnalysis/
 ├── data/
 │   ├── train.csv
@@ -60,6 +59,7 @@ Kết quả cho thấy tỷ lệ học 0.0001 mang lại hiệu suất tối ưu
 │   └── confusion_matrix.png
 ├── requirements.txt
 └── README.md
+```
 
 ⚙ Installation & Usage
 1️⃣ Create Environment and Install Packages
