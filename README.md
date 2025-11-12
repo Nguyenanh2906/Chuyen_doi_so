@@ -61,8 +61,11 @@
 └── README.md
 ```
 
-⚙ Installation & Usage
+### ⚙ Installation & Usage
 1️⃣ Create Environment and Install Packages
+   ```shell
+    conda create -n sentiment-dev python=3.9
+   ```
 conda create -n sentiment-dev python=3.9
 conda activate sentiment-dev
 pip install -r requirements.txt
