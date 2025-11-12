@@ -96,7 +96,8 @@ python predict.py --text "Môn học rất thú vị và dễ hiểu"
 |Scikit-learn / Pandas / NumPy | Xử lý dữ liệu và đánh giá mô hình. |
 
 
-📈 Results
+## 📈 Result---
+
 <p align="center">
   <img src="./img/Nhãn 1.jpg" alt=""/>
 </p>
