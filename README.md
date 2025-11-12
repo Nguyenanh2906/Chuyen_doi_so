@@ -40,7 +40,7 @@
 
 📊 Bảng 1 – Hiệu suất mô hình theo tỷ lệ học (Trên tập Dev):
 <p align="center">
-  <img src="./img/Bảng 1.jpg" alt="" width="200"/>
+  <img src="./img/Bảng 1.jpg" alt=""/>
 </p>
 Kết quả cho thấy tỷ lệ học 0.0001 mang lại hiệu suất tối ưu cho cả hai nhiệm vụ.
 
