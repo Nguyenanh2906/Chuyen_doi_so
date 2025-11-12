@@ -66,24 +66,38 @@
    ```shell
     conda create -n sentiment-dev python=3.9
    ```
-conda create -n sentiment-dev python=3.9
-conda activate sentiment-dev
-pip install -r requirements.txt
 
+   ```shell
+    conda activate sentiment-dev
+   ```
+
+   ```shell
+    pip install -r requirements.txt
+   ```
 2️⃣ Train Model
+```shell
 python train.py --model phobert-cnn-gru --epochs 10 --lr 0.0001
-
+```
 3️⃣ Evaluate Model
+```shell
 python evaluate.py --dataset test.csv
-
+```
 4️⃣ Predict New Feedback
+```shell
 python predict.py --text "Môn học rất thú vị và dễ hiểu"
+```
+### 🧠 Technologies
+| Component | Description |
+|-------|--------|
+| PHoBERT | Mô hình ngôn ngữ tiền huấn luyện cho tiếng Việt, tạo vector embedding ngữ cảnh. |
+| CNN | Phát hiện cụm từ cảm xúc và đặc trưng cục bộ. |
+| GRU | Nắm bắt chuỗi thời gian và ngữ cảnh trong phản hồi. |
+|Scikit-learn / Pandas / NumPy | Xử lý dữ liệu và đánh giá mô hình. |
 
-🧠 Technologies
 Component	Description
-PHoBERT	Mô hình ngôn ngữ tiền huấn luyện cho tiếng Việt, tạo vector embedding ngữ cảnh.
-CNN	Phát hiện cụm từ cảm xúc và đặc trưng cục bộ.
-GRU	Nắm bắt chuỗi thời gian và ngữ cảnh trong phản hồi.
+- PHoBERT	Mô hình ngôn ngữ tiền huấn luyện cho tiếng Việt, tạo vector embedding ngữ cảnh.
+- CNN	Phát hiện cụm từ cảm xúc và đặc trưng cục bộ.
+- GRU	Nắm bắt chuỗi thời gian và ngữ cảnh trong phản hồi.
 PyTorch	Framework chính để huấn luyện và triển khai mô hình.
 Scikit-learn / Pandas / NumPy	Xử lý dữ liệu và đánh giá mô hình.
 📈 Results
