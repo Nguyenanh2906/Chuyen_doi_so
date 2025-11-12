@@ -27,23 +27,21 @@
 
 😞 Tiêu cực (Negative)
 ---
-⚙ System Overview
-🧠 Mô hình đề xuất
+## ⚙ System Overview
+### 🧠 Mô hình đề xuất
 
-PHoBERT: Sinh embedding ngữ cảnh tiếng Việt.
+- PHoBERT: Sinh embedding ngữ cảnh tiếng Việt.
 
-CNN (Convolutional Neural Network): Phát hiện các cụm từ đặc trưng cảm xúc.
+- CNN (Convolutional Neural Network): Phát hiện các cụm từ đặc trưng cảm xúc.
 
-GRU (Gated Recurrent Unit): Nắm bắt mối quan hệ chuỗi trong câu phản hồi.
+- GRU (Gated Recurrent Unit): Nắm bắt mối quan hệ chuỗi trong câu phản hồi.
 
-Kết hợp CNN-GRU: Giúp mô hình vừa học được đặc trưng cục bộ vừa hiểu được ngữ cảnh tổng thể, nâng cao độ chính xác phân loại.
+- Kết hợp CNN-GRU: Giúp mô hình vừa học được đặc trưng cục bộ vừa hiểu được ngữ cảnh tổng thể, nâng cao độ chính xác phân loại.
 
 📊 Bảng 1 – Hiệu suất mô hình theo tỷ lệ học (Trên tập Dev):
-
-Nhiệm vụ	Learning Rate	F1-Score (Macro)	F1-Score (Weighted)	Accuracy
-Cực cảm xúc	0.0001	0.7522	0.8914	0.8831
-Chủ đề	0.0001	0.6723	0.7988	0.7821
-
+<p align="center">
+  <img src="./img/Bảng 1" alt="" width="200"/>
+</p>
 Kết quả cho thấy tỷ lệ học 0.0001 mang lại hiệu suất tối ưu cho cả hai nhiệm vụ.
 
 🧩 System Architecture
