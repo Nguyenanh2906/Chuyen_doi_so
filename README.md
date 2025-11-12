@@ -15,7 +15,7 @@
 
 🌟 Introduction
 
-Student Sentiment Analysis là hệ thống phân tích cảm xúc trong phản hồi của sinh viên, giúp nhà trường đánh giá mức độ hài lòng và phát hiện sớm các vấn đề trong quá trình học tập.
+- ** Student Sentiment Analysis là hệ thống phân tích cảm xúc trong phản hồi của sinh viên, giúp nhà trường đánh giá mức độ hài lòng và phát hiện sớm các vấn đề trong quá trình học tập.
 
 Hệ thống kết hợp sức mạnh của PHoBERT – mô hình ngôn ngữ mạnh mẽ cho tiếng Việt – cùng CNN và GRU để phát hiện cụm từ mang tính cảm xúc (“chưa hiểu”, “rất hay”, “khó tiếp thu”…), đồng thời nắm bắt ngữ cảnh của toàn câu để phân loại cảm xúc chính xác hơn.
 
