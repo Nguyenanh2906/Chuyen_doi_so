@@ -94,26 +94,20 @@ python predict.py --text "Môn học rất thú vị và dễ hiểu"
 | GRU | Nắm bắt chuỗi thời gian và ngữ cảnh trong phản hồi. |
 |Scikit-learn / Pandas / NumPy | Xử lý dữ liệu và đánh giá mô hình. |
 
-Component	Description
-- PHoBERT	Mô hình ngôn ngữ tiền huấn luyện cho tiếng Việt, tạo vector embedding ngữ cảnh.
-- CNN	Phát hiện cụm từ cảm xúc và đặc trưng cục bộ.
-- GRU	Nắm bắt chuỗi thời gian và ngữ cảnh trong phản hồi.
-PyTorch	Framework chính để huấn luyện và triển khai mô hình.
-Scikit-learn / Pandas / NumPy	Xử lý dữ liệu và đánh giá mô hình.
+
 📈 Results
+<p align="center">
+  <img src="./img/Nhãn 1.jpg" alt=""/>
+</p>
 
-F1-Score (Macro): 0.7522 (Cực cảm xúc)
+<p align="center">
+  <img src="./img/Nhãn 2.jpg" alt=""/>
+</p>
 
-Accuracy: 0.8831
+## 📚 Reference
 
-Mô hình CNN-GRU kết hợp đạt hiệu quả cao hơn so với từng mô hình riêng lẻ.
+- PhoBERT: Nguyen et al., “PhoBERT: Pre-trained language models for Vietnamese,” (2020).
 
-Giúp hệ thống phát hiện chính xác cảm xúc sinh viên, hỗ trợ cải thiện nội dung giảng dạy và chất lượng học tập.
+- GRU: Cho et al., “Learning Phrase Representations using RNN Encoder–Decoder,” (2014).
 
-📚 Reference
-
-PhoBERT: Nguyen et al., “PhoBERT: Pre-trained language models for Vietnamese,” (2020).
-
-GRU: Cho et al., “Learning Phrase Representations using RNN Encoder–Decoder,” (2014).
-
-CNN: Kim, “Convolutional Neural Networks for Sentence Classification,” (2014).
+- CNN: Kim, “Convolutional Neural Networks for Sentence Classification,” (2014).
